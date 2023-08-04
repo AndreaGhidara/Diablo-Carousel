@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "DiabloFont";
+  src: url("src/fonts/Diablo/Heavy.ttf");
+}
+
+body{
+  overflow: hidden;
+  font-family: "DiabloFont";
+}
+
+.font-Diablo{
+  font-family: "DiabloFont";
+}
+
