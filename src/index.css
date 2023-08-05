@@ -3,16 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "DiabloFont";
-  src: url("src/fonts/Diablo/Heavy.ttf");
+  font-family: diablofont;
+  src: url("./assets/fonts/Diablo-Light.ttf");
 }
 
 body{
   overflow: hidden;
-  font-family: "DiabloFont";
 }
 
 .font-Diablo{
-  font-family: "DiabloFont";
+  font-family: "diablofont";
 }
 
