@@ -12,6 +12,6 @@ export interface ButtonProps{
 
 export interface DevicesProps{
     wid: number | null,
-    key: string | null,
+    deviceKey: string | null,
     path: string | null,
 }

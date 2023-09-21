@@ -125,9 +125,9 @@ function App() {
             </button>
           </div>
           <div className="w-[300px]">
-            <div className="flex flex-wrap">
+            <div className="flex items-center">
               {/* {whoDevice()} */}
-              <DeviceComp/>
+              <DeviceComp device={game[counter].device}/>
             </div>
           </div>
         </div>
